@@ -1,0 +1,29 @@
+commit aa6da33413b6d2eb97935aa53bb99823ea105f6f
+Author: Fernando Mashimo <fernando.mashimo@yahoo.com.br>
+Date:   Fri Sep 9 15:44:49 2022 -0300
+
+    Adição de Passo-a-Passo de Git no README.md
+
+commit e6fb31e7e956acd66151166d56637bb0c634a3ac
+Author: Fernando Mashimo <fernando.mashimo@yahoo.com.br>
+Date:   Fri Sep 9 15:32:14 2022 -0300
+
+    Edição do Arquivo infos.txt com a adição de nome e sobrenome
+
+commit 6867017d79ce8da1e565b616b42c4114866c4030
+Author: Fernando Mashimo <fernando.mashimo@yahoo.com.br>
+Date:   Fri Sep 9 15:30:47 2022 -0300
+
+    Criação do Arquivo infos.txt
+
+commit 275a63d6d553fa78ca854dc7adf3fcbfeda118a7
+Author: Fernando Mashimo <fernando.mashimo@yahoo.com.br>
+Date:   Fri Sep 9 15:27:39 2022 -0300
+
+    Alteração de README.md
+
+commit 0b161c47f2f908581e0461062ce0a92177fad803
+Author: Fernando Mashimo <fernando.mashimo@yahoo.com.br>
+Date:   Fri Sep 9 15:24:57 2022 -0300
+
+    Criação do Arquivo README.md

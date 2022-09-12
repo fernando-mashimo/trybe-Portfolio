@@ -1,0 +1,6 @@
+Primeira frase aleatória
+Segunda linha com outra frase aleatória
+Terceira linha com qualquer coisa que apareceu na minha cabeça.
+Incluindo br no arquivo só para testar.
+Incluindo br de novo
+Incluindo BR também
