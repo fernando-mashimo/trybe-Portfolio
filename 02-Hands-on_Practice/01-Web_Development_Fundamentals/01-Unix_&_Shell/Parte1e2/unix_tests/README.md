@@ -1,3 +1,5 @@
+## Prática de Comandos no Terminal (Bash e Zsh)
+
 Realizados todos os exercícios da Parte 1. O último exercício pedia para apagar
 todos os arquivos com extensão txt - como só tinham arquivos com essa
 extensão no diretório, não sobrou nada.
