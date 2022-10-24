@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="http://fonts.cdnfonts.com/css/spqr" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="./images/trybewarts-header-logo.svg"
+        alt="logo trybewarts"
+      />
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login" action="" method="get">
+        <input
+          class="form-control"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+        <input
+          class="form-control"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Senha"
+        />
+        <button class="btn" type="submit" id="loginBtn">Entrar</button>
+      </form>
+    </header>
+    <!-- Término do Header e Início do Cadastro -->
+    <main>
+      <form class="container" id="evaluation-form" action="" method="get">
+        <section id="form-avalition">
+          <h3>Formulário de Avaliação</h3>
+        </section>
+        <section class="form-users">
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            id="input-name"
+            placeholder="Nome"
+          />
+          <input
+            class="form-control"
+            type="text"
+            name="Sobrenome"
+            id="input-lastname"
+            placeholder="Sobrenome"
+          />
+        </section>
+        <section class="form-registration">
+          <input
+            class="form-control"
+            type="email"
+            name="cadastro-email"
+            id="input-email"
+            placeholder="Email"
+          />
+          <span id="label-house">
+            <p>Casa:</p>
+          </span>
+          <select class="form-control" id="house" name="casa">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </section>
+        <!-- Término do Cadastro e Início da Lista de Famílias -->
+        <section class="family form-check">
+          <label for="family" id="label-family">Qual sua família?</label>
+          <section>
+            <input
+            class="form-check-input"
+              type="radio"
+              checked="true"
+              name="family"
+              value="Frontend"
+              id="frontend"
+            />
+            <label class="form-check-label" for="frontend">Frontend</label>
+          </section>
+          <section>
+            <input class="form-check-input" type="radio" name="family" value="Backend" id="backend" />
+            <label class="form-check-label" for="backend">Backend</label>
+          </section>
+          <section>
+            <input
+            class="form-check-input"
+              type="radio"
+              name="family"
+              value="FullStack"
+              id="fullstack"
+            />
+            <label for="fullstack">Fullstack</label>
+          </section>
+        </section>
+        <!-- Término da lista de Famílias e Início da Lista de Tecnologias -->
+        <section class="tech form-check">
+          <label class="form-check-label" for="" id="label-content"
+            >Qual conteúdo você está com mais vontade de aprender?</label
+          >
+          <section class="techColumn1">
+            <div>
+              <input
+
+                type="checkbox"
+                class="subject form-check-input"
+                value="HoFs"
+                name="hof"
+                id="hof"
+              />
+              <label class="form-check-label" for="hof">HoFs</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                class="subject form-check-input"
+                value="Jest"
+                name="jest"
+                id="jest"
+              />
+              <label for="jest">Jest</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                class="subject form-check-input"
+                value="Promises"
+                name="promises"
+                id="promises"
+              />
+              <label for="promises">Promises</label>
+            </div>
+          </section>
+          <section class="techColumn2">
+            <div>
+              <input
+                type="checkbox"
+                class="subject form-check-input"
+                value="React"
+                name="react"
+                id="react"
+              />
+              <label for="react">React</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                class="subject form-check-input"
+                value="SQL"
+                name="sql"
+                id="sql"
+              />
+              <label for="sql">SQL</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                class="subject form-check-input"
+                value="Python"
+                name="python"
+                id="python"
+              />
+              <label for="python">Python</label>
+            </div>
+          </section>
+        </section>
+        <!-- Término da lista de Tecnologias e Início da Avaliação -->
+        <section id="avalation-trybewarts">
+          <div class="form-check">
+            <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+            <input type="radio" name="rate" id="1" value="1" />
+            <label for="rate">1</label>
+            <input type="radio" name="rate" id="2" value="2" />
+            <label for="rate">2</label>
+            <input type="radio" name="rate" id="3" value="3" />
+            <label for="rate">3</label>
+            <input type="radio" name="rate" id="4" value="4" />
+            <label for="rate">4</label>
+            <input type="radio" name="rate" id="5" value="5" />
+            <label for="rate">5</label>
+            <input type="radio" name="rate" id="6" value="6" />
+            <label for="rate">6</label>
+            <input type="radio" name="rate" id="7" value="7" />
+            <label for="rate">7</label>
+            <input type="radio" name="rate" id="8" value="8" />
+            <label for="rate">8</label>
+            <input type="radio" name="rate" id="9" value="9" />
+            <label for="rate">9</label>
+            <input type="radio" name="rate" id="10" value="10" />
+            <label for="rate">10</label>
+          </div>
+        </section>
+        <!-- Término da Avaliação Trybewarts e Início do TextArea -->
+        <section id="form-textarea" class="">
+          <label id="textarea-count" class="textarea" for="textarea">Deixe seu comentário:</label>
+          <textarea
+          class="form-control"
+            name="comment"
+            maxlength="500"
+            id="textarea"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <div>
+            <span id="counter">500</span><span id="counter-text"> caracteres restantes</span>
+          </div>
+        </section>
+        <!-- Término do TextArea e Início da Validação do Usuário -->
+        <section id="form-infos">
+          <label id="label-infos" for="agreement"
+            >Você concorda com o uso das informações acima?</label
+          >
+          <input type="checkbox" name="agreement" id="agreement" />
+        </section>
+        <!-- Término da Validação do Usuário e Início da Submit -->
+        <section class="d-grid gap-2 col-6 mx-auto btn-submit">
+          <button class="btn" id="submit-btn" disabled="true" type="submit">Enviar</button>
+        </section>
+      </form>
+      <section id="studentInfo"></section>
+      <aside>
+        <img
+          id="trybewarts-forms-logo"
+          src="./images/trybewarts-colored.svg"
+          alt="logo Trybewarts"
+        />
+      </aside>
+    </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
