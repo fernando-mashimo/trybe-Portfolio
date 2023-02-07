@@ -70,6 +70,8 @@ Neste projeto, verificamos se você é capaz de:
   Para garantir a qualidade do código, vamos utilizar neste projeto o linter ESLint. Assim, o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! Para rodar o _linter_ localmente no projeto, execute o comando abaixo:
 
   `npm run lint`
+  
+</details>
 
 <a name="testes"></a>
 
