@@ -1,0 +1,11 @@
+img {
+  width: 4%;
+}
+
+.header {
+  align-items: center;
+  background-color: rgb(194, 191, 191);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}

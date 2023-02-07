@@ -1,0 +1,25 @@
+caption {
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.tableBody {
+  align-content: space-around;
+  align-items: stretch;
+  border: solid 1px red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-around;
+}
