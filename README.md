@@ -1,3 +1,4 @@
 # trybe-Portfolio
 
-All Tasks and Projects carried out in my course at Trybe.
+Main Projects delivered during my Web Development course at Trybe.
+<br> https://www.betrybe.com/
