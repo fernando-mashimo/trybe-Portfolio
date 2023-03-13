@@ -1,0 +1,36 @@
+img {
+  justify-content: center;
+  width: 310px;
+}
+
+p {
+  margin: 10px;
+  width: 300px;
+}
+
+.card {
+  background-color: rgba(255, 183, 29, 0.75);
+  border: solid white 1px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  line-height: 1.5;
+  padding: 10px;
+  width: 310px;
+}
+
+.smallLogo {
+  margin-left: 210px;
+  margin-top: -100px;
+  width: 100px;
+}
+
+.superTrunfo {
+  display: flex;
+  font-size: medium;
+}
+
+.superTrunfo > p {
+  display: none;
+}

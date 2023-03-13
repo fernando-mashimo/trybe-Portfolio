@@ -1,0 +1,18 @@
+button {
+  background-color: green;
+  border-color: none;
+  border-radius: 20%;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  height: 30px;
+  width: 80px;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-evenly;
+  width: 500px;
+}
